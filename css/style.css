@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nixie One' , sans-serif;
+  text-decoration: none; }
+
+body {
+  color: black;
+  margin: 5px;
+  padding: 5px;
+  font-style: normal;
+  font-family: "Nixie One"; }
+
+img {
+  width: 30%;
+  margin-left: 800px;
+  margin-top: 50px;
+  scroll-margin-bottom: 50px; }
+
+ul {
+  text-align: right; }
+
+.inicio {
+  display: inline-block;
+  float: right;
+  background-color: grey; }
+
+.fondo {
+  font-weight: bold; }
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none; }
+
+.indexp {
+  position: relative;
+  bottom: 725px; }
+
+/* BARRA DE NAVEGACION */
+header {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: grey;
+  list-style: none;
+  text-decoration: none; }
+
+.navbar {
+  width: 70%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none; }
+
+.menu {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  text-decoration: none; }
+
+.menu li {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: flex-end;
+  width: 20%;
+  list-style: none;
+  text-decoration: none; }
+
+.menu li:hover {
+  background-color: white; }
+
+.menu li a:hover {
+  color: grey; }
+
+footer {
+  color: black; }
+
+@media only screen and (min-width: 480px) {
+  #grid {
+    grid-template-columns: repeat 4, 1fr; }
+  .border {
+    border: solid 4px black; } }
+
+@media only screen and (min-width: 768px) {
+  #grid {
+    grid-template-columns: repeat 4, 1fr; }
+  .border {
+    border: solid 4px black; } }
+
+@media only screen and (min-width: 1024px) {
+  #grid {
+    grid-template-columns: repeat 3, 1fr; }
+  .border {
+    border: solid 4px black; } }
+
+/* GALERIA*************************** */
+.grid-gallery {
+  display: grid;
+  grid-auto-rows: 500px;
+  grid-gap: 1.5rem;
+  grid-auto-flow: row dense; }
+
+/* TRANSICIONES */
+.navbar:hover {
+  transition: 3s;
+  font-size: 1.5rem; }
+
+table {
+  border: solid 5px;
+  border-color: black;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 100px;
+  padding: 100px; }
+
+/* TITULO */
+.title {
+  padding-top: 20px;
+  color: black; }
+
+.title h1 {
+  font-size: 48px; }
+
+.title h1 span {
+  font-weight: 100; }
+
+.title h2 {
+  font-weight: 100;
+  font-size: 0.9rem;
+  text-align: center; }

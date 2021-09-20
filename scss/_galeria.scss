@@ -1,0 +1,10 @@
+/* GALERIA*************************** */
+.grid-gallery {
+    display: grid;
+    grid-auto-rows: 500px;
+    grid-gap: 1.5rem;
+    grid-auto-flow:row dense
+
+    }
+
+

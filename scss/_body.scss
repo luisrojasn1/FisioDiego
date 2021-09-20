@@ -1,0 +1,40 @@
+body {
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    font-style: normal;
+    font-family: "Nixie One";
+    
+}
+
+img {
+    width: 30%;
+    margin-left: 800px;
+    margin-top: 50px;
+    scroll-margin-bottom: 50px;
+}
+
+ul {
+    text-align: right;
+}
+
+.inicio {
+    display: inline-block;
+    float: right;
+    background-color: grey;
+}
+
+.fondo {
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.indexp {
+    position: relative;
+    bottom: 725px;
+}

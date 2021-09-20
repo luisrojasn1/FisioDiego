@@ -1,0 +1,47 @@
+/* BARRA DE NAVEGACION */
+header{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+
+.menu li{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-end;
+    width: 20%;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color:white;
+}
+
+.menu li a:hover{
+    color:grey;
+}
