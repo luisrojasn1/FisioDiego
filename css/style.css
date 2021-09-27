@@ -78,7 +78,14 @@ header {
   color: grey; }
 
 footer {
-  color: black; }
+  color: black;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  list-style: none;
+  text-decoration: none; }
 
 @media only screen and (min-width: 480px) {
   #grid {
